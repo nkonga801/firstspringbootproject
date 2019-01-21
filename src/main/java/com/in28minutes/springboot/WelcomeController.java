@@ -18,7 +18,7 @@ public class WelcomeController {
         }
 }
 
-
+// Spring to manage this bean and create an instance of this. 
 @Component
 class WelcomeService {
     public String retrieveWelcomeMessage() {
